@@ -1,11 +1,13 @@
 #include <iostream>
+
 using namespace std;
 
-int main() {
+int main()
+{
     double mile, km;
-    cout<<"Introduceti distanta in mile: ";
-    cin>>mile;
-    km=mile*1.609344;
-    cout<<"Distanta in km este de: "<<km;
+    cout << "Lungimea in mile: ";
+    cin >> mile;
+    km = mile * 1.609344;
+    cout << "Lungimea in Km este de " << km << endl;
     return 0;
 }
